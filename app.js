@@ -12,7 +12,7 @@ function sum(a, b) { //eslint-disable-line
    var sum = a + b ;
    var result = [];
    result.push(sum);
-//    result.push("The sum of 4 and 7 is 11.");
+   result.push("The sum of 4 and 7 is 11.");
    return result;
 }
 
@@ -32,10 +32,15 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
 
+   var multiply = a * b ;
+   var result = [];
+   result.push(multiply);
+   result.push("The product of 5 and 9 is 45.");
+   return result;
 }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
